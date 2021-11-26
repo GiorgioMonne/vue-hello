@@ -10,7 +10,10 @@
 <body>
 
     <div id="saluto">
-        <h1 :classe = "stile" >Parola del saggio : {{messaggio}}</h1>
+        <h1 v-bind:class="classeTesto ">Parola del saggio : {{messaggio}}</h1>
+        <div v-bind:class="divcontimg ">
+            <img id="formato" v-bind:src="immag" alt="sardegna">
+        </div>
     </div>
 
     <!-- development version, includes helpful console warnings -->

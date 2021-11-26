@@ -6,6 +6,8 @@ const app = new Vue({
 	el: '#saluto',
 	data: {
 		messaggio: "Il mondo è il mio giaciglio",
-		mieClassi: "stile"
+		classeTesto: "stile",
+        divcontimg: "container-img",
+        immag:"img/Spiaggia.jpg"
 	}
 });
